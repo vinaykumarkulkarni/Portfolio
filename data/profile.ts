@@ -11,8 +11,8 @@ export const profile = {
 };
 
 export const socialLinks = {
-  github: "https://github.com/REPLACE_WITH_YOUR_GITHUB",
-  linkedin: "https://www.linkedin.com/in/REPLACE_WITH_YOUR_LINKEDIN"
+  //github: "https://github.com/",
+  linkedin: "https://www.linkedin.com/in/vinay-kul"
 };
 
 export const skills = [

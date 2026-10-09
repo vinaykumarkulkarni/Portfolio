@@ -28,7 +28,7 @@ export default function Home() {
             deeply into cloud and Generative AI.
           </p>
           <div className="heroActions">
-            <a className="primaryButton" href="#projects">Explore projects <ArrowUpRight size={17}/></a>
+            {/* <a className="primaryButton" href="#projects">Explore projects <ArrowUpRight size={17}/></a> */}
             <a className="secondaryButton" href="/resume/Vinay_Kulkarni_Updated_CV_Rajeev_Format.pdf" target="_blank">Download CV</a>
           </div>
           <div className="quickFacts">
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="projects" className="section sectionDark">
+      {/* <section id="projects" className="section sectionDark">
         <div className="shell">
           <div className="sectionHeading light">
             <p className="eyebrow">04 / PORTFOLIO PROJECTS</p>
@@ -140,18 +140,17 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="contact" className="section shell contactSection">
         <div className="contactBox">
           <div>
             <p className="eyebrow">05 / CONTACT</p>
-            <h2>Let’s build something meaningful.</h2>
-            <p>For engineering opportunities, technical discussions or collaboration, reach me directly.</p>
+            <h2>For engineering opportunities, technical discussions or collaboration, reach me directly.</h2>
           </div>
           <div className="contactLinks">
             <a href={`mailto:${profile.email}`}><Mail size={17}/> {profile.email}</a>
-            <a href={socialLinks.github} target="_blank" rel="noreferrer"><Github size={17}/> GitHub</a>
+            {/* <a href={socialLinks.github} target="_blank" rel="noreferrer"><Github size={17}/> GitHub</a> */}
             <a href={socialLinks.linkedin} target="_blank" rel="noreferrer"><Linkedin size={17}/> LinkedIn</a>
           </div>
         </div>
