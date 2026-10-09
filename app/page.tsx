@@ -20,7 +20,7 @@ export default function Home() {
 
       <section id="top" className="hero shell">
         <div className="heroCopy">
-          <p className="eyebrow">LEAD SOFTWARE ENGINEER</p>
+          <p className="eyebrow">Lead Consultant</p>
           <h1>Building scalable web experiences with <span>React, Next.js & AI.</span></h1>
           <p className="heroText">
             12 years of software development experience across enterprise web applications,
@@ -50,6 +50,8 @@ export default function Home() {
           <div className="floatingTag tagTwo">Next.js</div>
           <div className="floatingTag tagThree">Node.js</div>
           <div className="floatingTag tagFour">GenAI</div>
+          <div className="floatingTag tagFour">RAG</div>
+          <div className="floatingTag tagFour">Evaluation</div>
         </div>
       </section>
 
