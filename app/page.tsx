@@ -13,7 +13,7 @@ export default function Home() {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
-        <a className="navCta" href="/resume/Vinay_Kulkarni_Updated_CV_Rajeev_Format.pdf" target="_blank">
+        <a className="navCta" href="/resume/Vinay_Kulkarni_Resume.pdf" target="_blank">
           Resume <Download size={15}/>
         </a>
       </nav>
@@ -29,7 +29,7 @@ export default function Home() {
           </p>
           <div className="heroActions">
             {/* <a className="primaryButton" href="#projects">Explore projects <ArrowUpRight size={17}/></a> */}
-            <a className="secondaryButton" href="/resume/Vinay_Kulkarni_Updated_CV_Rajeev_Format.pdf" target="_blank">Download CV</a>
+            <a className="secondaryButton" href="/resume/Vinay_Kulkarni_Resume.pdf" target="_blank">Download CV</a>
           </div>
           <div className="quickFacts">
             <span><MapPin size={15}/> Bengaluru, India</span>
